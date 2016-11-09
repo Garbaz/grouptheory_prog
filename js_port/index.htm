@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1"> 
+<html>
+	<head>
+	</head>
+	<body>
+		Input permutation in the form "p(1) p(2) p(3) ..." (e.g. "2 3 1"):<br><br>
+		<script type="text/javascript" src="invnum.js"></script>
+		<input id="perm" type="text" size="100" onkeypress="keyHandlePerm(event)"><br>
+		<input id="calc" type="button" value="Inversion Number:" onclick="calc()">
+		<input id="result" type="text" size="20" readonly><br><br>
+		<input id="clearTrans" type="button" value="clear" onclick="clearTrans()">  <input id="evalTrans" type="button" value="Evaluate Transpositions" onclock="evalTrans()"><br>
+		<div id="trans0"><input id="transInput0" type="text" size="10" onkeypress="keyHandleTrans(event,id)"><input id="transOutput0" type="text" size="100" readonly></div>
+	</body>
+</html>
