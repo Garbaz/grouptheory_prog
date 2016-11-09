@@ -1,3 +1,5 @@
+# Example of factorisation of a permutation
+# Instead of guessing factors (transpositions), I go the other way around, turning my Permutation into (1 2 3 ...) using only transpositions. To get the factors of our permutation we reverse their order and form their composition.
 #Sigma1 = 
 3 5 4 1 2
 #Transposition Factors (In reverse order)
