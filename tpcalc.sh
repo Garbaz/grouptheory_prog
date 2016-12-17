@@ -3,7 +3,7 @@
 # DESCRIPTION:
 #    Reads all lines from FILE (or stdin, if no file given) and waits for the first line not starting with a '#'.
 #    The first interpreted line has to be of the form "p0 p1 p2 ..." (e.g. "1 3 2 5 4"). This line initializes the permutation of (1 2 3 4 ...) on which the transformations are applied.
-#    All subsequent (interpreted) lines have to be of the form "i j" (e.g. "1 5"). Theses lines descript the transformations applied to the initial permutation.
+#    All subsequent (interpreted) lines have to be of the form "i j" (e.g. "1 5"). Theses lines descript the transpositions applied to the initial permutation.
 #    
 #    Outputs a visual representation of each step and on the last line the resulting permutation.
 
